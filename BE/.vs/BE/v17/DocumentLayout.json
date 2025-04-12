@@ -1,0 +1,415 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DE969023-0A53-4B48-B5F6-48BF28880A70}|BLL\\BLL.csproj|D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\bll\\userbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE969023-0A53-4B48-B5F6-48BF28880A70}|BLL\\BLL.csproj|solutionrelative:bll\\userbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE969023-0A53-4B48-B5F6-48BF28880A70}|BLL\\BLL.csproj|D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\bll\\connectionstringhelper\\connectionstringhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE969023-0A53-4B48-B5F6-48BF28880A70}|BLL\\BLL.csproj|solutionrelative:bll\\connectionstringhelper\\connectionstringhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D0D98A9-8C32-4F25-AA4F-2F66D6654FA5}|API\\API.csproj|d:\\hoc\\do_an\\projectcunhan-websitevina-\\be\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D0D98A9-8C32-4F25-AA4F-2F66D6654FA5}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D0D98A9-8C32-4F25-AA4F-2F66D6654FA5}|API\\API.csproj|d:\\hoc\\do_an\\projectcunhan-websitevina-\\be\\api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1D0D98A9-8C32-4F25-AA4F-2F66D6654FA5}|API\\API.csproj|solutionrelative:api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D0D98A9-8C32-4F25-AA4F-2F66D6654FA5}|API\\API.csproj|D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1D0D98A9-8C32-4F25-AA4F-2F66D6654FA5}|API\\API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CABEDD8-6AA0-489D-85F4-0B26DB10AFCB}|DTO\\DTO.csproj|D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\dto\\cart\\cartrequestmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CABEDD8-6AA0-489D-85F4-0B26DB10AFCB}|DTO\\DTO.csproj|solutionrelative:dto\\cart\\cartrequestmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE969023-0A53-4B48-B5F6-48BF28880A70}|BLL\\BLL.csproj|D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\bll\\interface\\icart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE969023-0A53-4B48-B5F6-48BF28880A70}|BLL\\BLL.csproj|solutionrelative:bll\\interface\\icart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE969023-0A53-4B48-B5F6-48BF28880A70}|BLL\\BLL.csproj|D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\bll\\cartbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE969023-0A53-4B48-B5F6-48BF28880A70}|BLL\\BLL.csproj|solutionrelative:bll\\cartbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CABEDD8-6AA0-489D-85F4-0B26DB10AFCB}|DTO\\DTO.csproj|D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\dto\\cart\\cartresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CABEDD8-6AA0-489D-85F4-0B26DB10AFCB}|DTO\\DTO.csproj|solutionrelative:dto\\cart\\cartresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE969023-0A53-4B48-B5F6-48BF28880A70}|BLL\\BLL.csproj|D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\bll\\orderbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE969023-0A53-4B48-B5F6-48BF28880A70}|BLL\\BLL.csproj|solutionrelative:bll\\orderbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CABEDD8-6AA0-489D-85F4-0B26DB10AFCB}|DTO\\DTO.csproj|D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\dto\\order\\orderresponsemodelv2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CABEDD8-6AA0-489D-85F4-0B26DB10AFCB}|DTO\\DTO.csproj|solutionrelative:dto\\order\\orderresponsemodelv2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D0D98A9-8C32-4F25-AA4F-2F66D6654FA5}|API\\API.csproj|D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D0D98A9-8C32-4F25-AA4F-2F66D6654FA5}|API\\API.csproj|solutionrelative:api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE969023-0A53-4B48-B5F6-48BF28880A70}|BLL\\BLL.csproj|D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\bll\\addressbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE969023-0A53-4B48-B5F6-48BF28880A70}|BLL\\BLL.csproj|solutionrelative:bll\\addressbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D0D98A9-8C32-4F25-AA4F-2F66D6654FA5}|API\\API.csproj|D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\api\\controllers\\addresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D0D98A9-8C32-4F25-AA4F-2F66D6654FA5}|API\\API.csproj|solutionrelative:api\\controllers\\addresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE969023-0A53-4B48-B5F6-48BF28880A70}|BLL\\BLL.csproj|D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\bll\\interface\\iorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE969023-0A53-4B48-B5F6-48BF28880A70}|BLL\\BLL.csproj|solutionrelative:bll\\interface\\iorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CABEDD8-6AA0-489D-85F4-0B26DB10AFCB}|DTO\\DTO.csproj|D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\dto\\order\\orderresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CABEDD8-6AA0-489D-85F4-0B26DB10AFCB}|DTO\\DTO.csproj|solutionrelative:dto\\order\\orderresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CABEDD8-6AA0-489D-85F4-0B26DB10AFCB}|DTO\\DTO.csproj|D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\dto\\order\\orderrequestmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CABEDD8-6AA0-489D-85F4-0B26DB10AFCB}|DTO\\DTO.csproj|solutionrelative:dto\\order\\orderrequestmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE969023-0A53-4B48-B5F6-48BF28880A70}|BLL\\BLL.csproj|D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\bll\\productbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE969023-0A53-4B48-B5F6-48BF28880A70}|BLL\\BLL.csproj|solutionrelative:bll\\productbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE969023-0A53-4B48-B5F6-48BF28880A70}|BLL\\BLL.csproj|D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\bll\\communebll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE969023-0A53-4B48-B5F6-48BF28880A70}|BLL\\BLL.csproj|solutionrelative:bll\\communebll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDF23658-6A68-4D37-9972-B81B9EAA55B3}|DLL\\DLL.csproj|D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\dll\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDF23658-6A68-4D37-9972-B81B9EAA55B3}|DLL\\DLL.csproj|solutionrelative:dll\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE969023-0A53-4B48-B5F6-48BF28880A70}|BLL\\BLL.csproj|D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\bll\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE969023-0A53-4B48-B5F6-48BF28880A70}|BLL\\BLL.csproj|solutionrelative:bll\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE969023-0A53-4B48-B5F6-48BF28880A70}|BLL\\BLL.csproj|D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\bll\\interface\\iaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE969023-0A53-4B48-B5F6-48BF28880A70}|BLL\\BLL.csproj|solutionrelative:bll\\interface\\iaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IOrder.cs",
+              "DocumentMoniker": "D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\BLL\\Interface\\IOrder.cs",
+              "RelativeDocumentMoniker": "BLL\\Interface\\IOrder.cs",
+              "ToolTip": "D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\BLL\\Interface\\IOrder.cs",
+              "RelativeToolTip": "BLL\\Interface\\IOrder.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T18:30:26.895Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T15:48:57.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CartResponseModel.cs",
+              "DocumentMoniker": "D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\DTO\\Cart\\CartResponseModel.cs",
+              "RelativeDocumentMoniker": "DTO\\Cart\\CartResponseModel.cs",
+              "ToolTip": "D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\DTO\\Cart\\CartResponseModel.cs",
+              "RelativeToolTip": "DTO\\Cart\\CartResponseModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T06:04:19.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CartRequestModule.cs",
+              "DocumentMoniker": "D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\DTO\\Cart\\CartRequestModule.cs",
+              "RelativeDocumentMoniker": "DTO\\Cart\\CartRequestModule.cs",
+              "ToolTip": "D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\DTO\\Cart\\CartRequestModule.cs",
+              "RelativeToolTip": "DTO\\Cart\\CartRequestModule.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T06:04:13.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConnectionStringHelper.cs",
+              "DocumentMoniker": "D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\BLL\\ConnectionStringHelper\\ConnectionStringHelper.cs",
+              "RelativeDocumentMoniker": "BLL\\ConnectionStringHelper\\ConnectionStringHelper.cs",
+              "ToolTip": "D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\BLL\\ConnectionStringHelper\\ConnectionStringHelper.cs",
+              "RelativeToolTip": "BLL\\ConnectionStringHelper\\ConnectionStringHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T06:03:32.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\API\\appsettings.json",
+              "RelativeDocumentMoniker": "API\\appsettings.json",
+              "ToolTip": "D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\API\\appsettings.json",
+              "RelativeToolTip": "API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-12T06:01:32.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserBLL.cs",
+              "DocumentMoniker": "D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\BLL\\UserBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\UserBLL.cs",
+              "ToolTip": "D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\BLL\\UserBLL.cs",
+              "RelativeToolTip": "BLL\\UserBLL.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T16:24:59.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "API\\appsettings.Development.json",
+              "ToolTip": "D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\API\\appsettings.Development.json",
+              "RelativeToolTip": "API\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-16T15:25:21.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ICart.cs",
+              "DocumentMoniker": "D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\BLL\\Interface\\ICart.cs",
+              "RelativeDocumentMoniker": "BLL\\Interface\\ICart.cs",
+              "ToolTip": "D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\BLL\\Interface\\ICart.cs",
+              "RelativeToolTip": "BLL\\Interface\\ICart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T06:05:31.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CartBLL.cs",
+              "DocumentMoniker": "D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\BLL\\CartBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\CartBLL.cs",
+              "ToolTip": "D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\BLL\\CartBLL.cs",
+              "RelativeToolTip": "BLL\\CartBLL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T10:53:14.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OrderResponseModel.cs",
+              "DocumentMoniker": "D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\DTO\\Order\\OrderResponseModel.cs",
+              "RelativeDocumentMoniker": "DTO\\Order\\OrderResponseModel.cs",
+              "ToolTip": "D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\DTO\\Order\\OrderResponseModel.cs",
+              "RelativeToolTip": "DTO\\Order\\OrderResponseModel.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T20:15:59.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CommuneBLL.cs",
+              "DocumentMoniker": "D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\BLL\\CommuneBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\CommuneBLL.cs",
+              "ToolTip": "D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\BLL\\CommuneBLL.cs",
+              "RelativeToolTip": "BLL\\CommuneBLL.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T09:13:08.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\DLL\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "DLL\\Models\\Order.cs",
+              "ToolTip": "D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\DLL\\Models\\Order.cs",
+              "RelativeToolTip": "DLL\\Models\\Order.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T20:15:25.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AddressController.cs",
+              "DocumentMoniker": "D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\API\\Controllers\\AddressController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\AddressController.cs",
+              "ToolTip": "D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\API\\Controllers\\AddressController.cs",
+              "RelativeToolTip": "API\\Controllers\\AddressController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T17:42:22.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IAddress.cs",
+              "DocumentMoniker": "D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\BLL\\Interface\\IAddress.cs",
+              "RelativeDocumentMoniker": "BLL\\Interface\\IAddress.cs",
+              "ToolTip": "D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\BLL\\Interface\\IAddress.cs",
+              "RelativeToolTip": "BLL\\Interface\\IAddress.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T17:42:10.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddressBLL.cs",
+              "DocumentMoniker": "D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\BLL\\AddressBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\AddressBLL.cs",
+              "ToolTip": "D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\BLL\\AddressBLL.cs",
+              "RelativeToolTip": "BLL\\AddressBLL.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T17:32:19.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderBLL.cs",
+              "DocumentMoniker": "D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\BLL\\OrderBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\OrderBLL.cs",
+              "ToolTip": "D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\BLL\\OrderBLL.cs",
+              "RelativeToolTip": "BLL\\OrderBLL.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T18:30:14.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProductBLL.cs",
+              "DocumentMoniker": "D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\BLL\\ProductBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\ProductBLL.cs",
+              "ToolTip": "D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\BLL\\ProductBLL.cs",
+              "RelativeToolTip": "BLL\\ProductBLL.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T10:52:43.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrderResponseModelv2.cs",
+              "DocumentMoniker": "D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\DTO\\Order\\OrderResponseModelv2.cs",
+              "RelativeDocumentMoniker": "DTO\\Order\\OrderResponseModelv2.cs",
+              "ToolTip": "D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\DTO\\Order\\OrderResponseModelv2.cs",
+              "RelativeToolTip": "DTO\\Order\\OrderResponseModelv2.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T17:53:32.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\BLL\\AuthService.cs",
+              "RelativeDocumentMoniker": "BLL\\AuthService.cs",
+              "ToolTip": "D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\BLL\\AuthService.cs",
+              "RelativeToolTip": "BLL\\AuthService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T17:08:20.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\API\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\OrderController.cs",
+              "ToolTip": "D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\API\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "API\\Controllers\\OrderController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T18:40:39.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OrderRequestModule.cs",
+              "DocumentMoniker": "D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\DTO\\Order\\OrderRequestModule.cs",
+              "RelativeDocumentMoniker": "DTO\\Order\\OrderRequestModule.cs",
+              "ToolTip": "D:\\HOC\\DO_AN\\ProjectCuNhan-WebsiteVina-\\BE\\DTO\\Order\\OrderRequestModule.cs",
+              "RelativeToolTip": "DTO\\Order\\OrderRequestModule.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T18:20:36.756Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

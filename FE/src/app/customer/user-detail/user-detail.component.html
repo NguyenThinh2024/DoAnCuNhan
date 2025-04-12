@@ -1,0 +1,218 @@
+<div class="notification">
+  <app-notification
+    [data]="dataNotification"
+    [trigger]="trigger"
+  ></app-notification>
+</div>
+<div class="container">
+  <div class="content-f">
+    <div class="User-header">
+      <i class="fa-regular fa-user"></i>
+      <span>
+        {{ userInfo.accountName }}
+      </span>
+    </div>
+    <ul>
+      <li
+        class="dashboard-item no-select"
+        [ngClass]="{ active: isActive === 1 }"
+        (click)="changeActive(1)"
+      >
+        <i class="fa-solid fa-address-book"></i>
+        <span>Hồ Sơ</span>
+      </li>
+      <li
+        class="dashboard-item no-select"
+        [ngClass]="{ active: isActive === 2 }"
+        (click)="changeActive(2)"
+      >
+        <i class="fa-solid fa-truck"></i>
+        <span>Đơn Mua</span>
+      </li>
+    </ul>
+  </div>
+  <div class="content-r">
+    <div class="content-ho-so content" *ngIf="isActive === 1">
+      <div class="header">
+        <span>Hồ Sơ Của Tôi</span>
+      </div>
+      <div class="br"></div>
+      <div class="secon-content">
+        <div class="box-content no-select">
+          <label for="userName">Tên Đăng Nhập:</label>
+          <div class="box-input">
+            <input
+              type="text"
+              disabled=""
+              id="userName"
+              [(ngModel)]="userInfo.accountName"
+            />
+          </div>
+        </div>
+        <div class="box-content no-select">
+          <label for="Name">Họ và tên:</label>
+          <div class="box-input">
+            <input type="text" id="Name" [(ngModel)]="userInfo.fullName" />
+          </div>
+        </div>
+        <div class="box-content no-select">
+          <label for="email">Email:</label>
+          <div class="box-input">
+            <input type="text" id="email" [(ngModel)]="userInfo.email" />
+          </div>
+        </div>
+        <div class="box-content no-select">
+          <label>Địa chỉ:</label>
+          <div class="box-input">
+            <div class="box-edit-address">
+              <app-address
+                [address]="address"
+                (addressChange)="getAddressChangeChildComponent($event)"
+              ></app-address>
+              <app-commune
+                [selectedCommuneId]="userInfo.commune"
+                [selectedDistrictId]="userInfo.district!"
+                (communeOutput)="getCommutNameChangeChildComponent($event)"
+              ></app-commune>
+              <app-district
+                [selectedProvinceId]="userInfo.province!"
+                (selectedDistrictIdChange)="
+                  getDistrictIDChangeChildComponent($event)
+                "
+                [selectedDistrictId]="userInfo.district!"
+              ></app-district>
+              <app-province
+                [selectedProvinceId]="userInfo.province!"
+                (selectedProvinceIdChange)="
+                  getProvinceIDChangeChildComponent($event)
+                "
+              ></app-province>
+            </div>
+          </div>
+        </div>
+        <div class="box-content no-select">
+          <label for="sdt">Số điện thoại:</label>
+          <div class="box-input">
+            <input type="text" id="sdt" [(ngModel)]="userInfo.phone" />
+          </div>
+        </div>
+        <div class="box-content no-select">
+          <label for="gender">Giới tính:</label>
+          <div class="box-input">
+            <select name="gender" id="gender" [(ngModel)]="userInfo.gender">
+              <option value="0">Nữ</option>
+              <option value="1">Nam</option>
+            </select>
+          </div>
+        </div>
+        <div class="box-content no-select">
+          <label for="typeCus">Khách hàng:</label>
+          <div class="box-input">
+            <input
+              type="text"
+              disabled="true"
+              id="typeCus"
+              [(ngModel)]="userInfo.customerType"
+            />
+          </div>
+        </div>
+
+        <div class="button-main no-select" (click)="isHandleUpdate()">
+          Cập Nhật
+        </div>
+      </div>
+    </div>
+    <div class="content-don-mua content" *ngIf="isActive === 2">
+      <div class="header-order">
+        <ul>
+          <li
+            class="order-header-item no-select"
+            [ngClass]="{ active: underActive === 0 }"
+            (click)="moveUnderline(0)"
+            (click)="getOrder(-1)"
+          >
+            <span>Tất cả</span>
+          </li>
+          <li
+            class="order-header-item no-select"
+            [ngClass]="{ active: underActive === 1 }"
+            (click)="moveUnderline(1)"
+            (click)="getOrder(1)"
+          >
+            <span>Đã Xác Nhận Đơn</span>
+          </li>
+          <li
+            class="order-header-item no-select"
+            [ngClass]="{ active: underActive === 2 }"
+            (click)="moveUnderline(2)"
+            (click)="getOrder(2)"
+          >
+            <span>Đang xử lý</span>
+          </li>
+          <li
+            class="order-header-item no-select"
+            [ngClass]="{ active: underActive === 3 }"
+            (click)="moveUnderline(3)"
+            (click)="getOrder(3)"
+          >
+            <span>Đang Vận chuyển</span>
+          </li>
+          <li
+            class="order-header-item no-select"
+            [ngClass]="{ active: underActive === 4 }"
+            (click)="moveUnderline(4)"
+            (click)="getOrder(4)"
+          >
+            <span>Đã Giao</span>
+          </li>
+          <li
+            class="order-header-item no-select"
+            [ngClass]="{ active: underActive === 5 }"
+            (click)="moveUnderline(5)"
+            (click)="getOrder(0)"
+          >
+            <span>Đã Hủy</span>
+          </li>
+          <div
+            class="unline"
+            [ngStyle]="{ transform: underlineTransform }"
+          ></div>
+        </ul>
+      </div>
+
+      <div class="content-order" *ngFor="let item of orders">
+        <div class="content-order-header">
+          <span [ngSwitch]="item.state">
+            <span *ngSwitchCase="0">Đã Hủy</span>
+            <span *ngSwitchCase="1">Đã Xác Nhận Đơn</span>
+            <span *ngSwitchCase="2">Đang xử lý</span>
+            <span *ngSwitchCase="4">Đã Giao</span>
+            <span *ngSwitchCase="3">Đang Vận chuyển</span>
+          </span>
+          <div class="content-order-content">
+            <div>
+              <img [src]="'assets/Products/' + item.image" alt="" />
+              <span class="name"
+                >{{ item.productname }}
+                <br />
+                <span class="quantity">
+                  <i class="fa-solid fa-xmark"></i>
+                  {{ item.quantity }}
+                </span>
+              </span>
+            </div>
+            <span class="price">{{ item.price | customCurrency }}</span>
+          </div>
+        </div>
+        <div class="content-order-footer">
+          <!-- <span class="deleteBy">Đã hủy bởi bạn</span> -->
+          <button class="deleteOrder" *ngIf="item.state === 1">Hủy đơn</button>
+          <span class="total-price"
+            >Thành tiền
+            <span>{{ item.totalprice | customCurrency }}</span></span
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
